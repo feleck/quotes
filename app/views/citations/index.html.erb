@@ -1,6 +1,9 @@
 <h1>Citations</h1>
 <% @citations.each do|citation| %>
-  <%= citation.text %>
-  <hr  />
+  <p>
+    <%= citation.text %>
+      </p>
+    <hr  />
 <% end %>
+<br  />
 <%= link_to 'Add New Citation', new_citations_path %>
