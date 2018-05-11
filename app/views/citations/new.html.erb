@@ -1,0 +1,8 @@
+<h1>Add New Citation</h1>
+<%= form_for @citation do |f| %>
+  <%= f.label :text %>
+  <%= f.text_field :text %>
+  <%= f.submit %>
+<% end %>
+<br />
+<%=link_to 'Back to Citations', root_path %>
